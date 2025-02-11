@@ -7,5 +7,5 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
     integrations: [react(), tailwind({ applyBaseStyles: false })],
     site: "https://niklasp.github.io",
-    base: "/MehrVomLohn.de",
+    base: "MehrVomLohn.de",
 });
