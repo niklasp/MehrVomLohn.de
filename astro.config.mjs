@@ -6,6 +6,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
     integrations: [react(), tailwind({ applyBaseStyles: false })],
-    site: "https://niklasp.github.io/",
-    base: "/MehrVomLohn.de/",
+    site: "https://niklasp.github.io",
+    base: "/MehrVomLohn.de",
 });
